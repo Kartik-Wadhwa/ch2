@@ -1,5 +1,5 @@
 import useUsers from '@/hooks/useUsers';
-
+import Image from "next/image";
 import Avatar from '../Avatar';
 
 const FollowBar = () => {
@@ -15,7 +15,7 @@ const FollowBar = () => {
       <div className="flex
                     items-center 
                     justify-center ">
-          <img className="
+          <Image className="
                     rounded
                     h-14
                     w-14
@@ -33,15 +33,15 @@ const FollowBar = () => {
     <div className="carousel-inner">
         <input className="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden checked/>
         <div className="carousel-item">
-            <img src="../images/img1.jpg"/>
+            <Image src="../images/img1.jpg" alt="..."/>
         </div>
         <input className="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden/>
         <div className="carousel-item">
-            <img src="../images/img2.jpg"/>
+            <Image src="../images/img2.jpg" alt="..."/>
         </div>
         <input className="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden/>
         <div className="carousel-item">
-            <img src="../images/img5.jpg"/>
+            <Image src="../images/img5.jpg" alt="..."/>
         </div>
         <label htmlFor="carousel-3" className="carousel-control prev control-1"/>
         <label htmlFor="carousel-2" className="carousel-control next control-1"/>

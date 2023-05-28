@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-
+import Image from "next/image";
 
 const SidebarLogo = () => {
   const router = useRouter();
@@ -20,7 +20,7 @@ const SidebarLogo = () => {
         hover:bg-opacity-20 
         cursor-pointer
     ">
-      <img src="../images/image2.png" alt="" />
+      <Image src="../images/image2.png" alt="..." />
     </div>
     <h1 onClick={() => router.push('/')} 
         className="
