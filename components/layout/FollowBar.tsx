@@ -15,53 +15,11 @@ const FollowBar = () => {
       <div className="flex
                     items-center 
                     justify-center ">
-          <Image className="
-                    rounded
-                    h-14
-                    w-14
-                    p-4 
-                    hover:bg-green-500 
-                    hover:bg-opacity-20 
-                    cursor-pointer
-          " src="../images/gift.png" alt="" />
-          <span className="text-sm">
+          <span className="text-sm my-5">
             <b>Earn Rewards</b> on Donations and live campaigns.
           </span>
         </div>
             
-        <div className="carousel">
-    <div className="carousel-inner">
-        <input className="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden checked/>
-        <div className="carousel-item">
-            <Image src="../images/img1.jpg" alt="..."/>
-        </div>
-        <input className="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden/>
-        <div className="carousel-item">
-            <Image src="../images/img2.jpg" alt="..."/>
-        </div>
-        <input className="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden/>
-        <div className="carousel-item">
-            <Image src="../images/img5.jpg" alt="..."/>
-        </div>
-        <label htmlFor="carousel-3" className="carousel-control prev control-1"/>
-        <label htmlFor="carousel-2" className="carousel-control next control-1"/>
-        <label htmlFor="carousel-1" className="carousel-control prev control-2"/>
-        <label htmlFor="carousel-3" className="carousel-control next control-2"/>
-        <label htmlFor="carousel-2" className="carousel-control prev control-3"/>
-        <label htmlFor="carousel-1" className="carousel-control next control-3"/>
-        <ol className="carousel-indicators">
-            <li>
-                <label htmlFor="carousel-1" className="carousel-bullet">•</label>
-            </li>
-            <li>
-                <label htmlFor="carousel-2" className="carousel-bullet">•</label>
-            </li>
-            <li>
-                <label htmlFor="carousel-3" className="carousel-bullet">•</label>
-            </li>
-        </ol>
-    </div>
-</div>
 
   
       <div className="bg-green-500 rounded-xl p-4">
