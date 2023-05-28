@@ -1,5 +1,4 @@
 import useUsers from '@/hooks/useUsers';
-import Image from "next/image";
 import Avatar from '../Avatar';
 
 const FollowBar = () => {
