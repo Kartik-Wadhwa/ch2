@@ -2,7 +2,6 @@ import { signOut } from 'next-auth/react';
 import { BiLogOut,BiDonateHeart } from 'react-icons/bi';
 import { BsHouseFill, BsBellFill,BsFillCalendarFill,BsPeopleFill } from 'react-icons/bs';
 import { FaUser,FaShoppingBag,FaBlogger,FaBroom } from 'react-icons/fa';
-import {MdFoodBank} from 'react-icons/Md'
 
 import useCurrentUser from '@/hooks/useCurrentUser';
 
@@ -42,11 +41,6 @@ const Sidebar = () => {
       icon: BiDonateHeart,
       label: 'Donate',
       href: 'https://eloquent-starburst-83ab1f.netlify.app/',
-      auth: true,
-    },
-    {
-      icon: MdFoodBank,
-      label: 'Food For Poor',
       auth: true,
     },
     {
