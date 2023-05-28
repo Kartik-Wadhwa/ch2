@@ -1,8 +1,7 @@
 import { signOut } from 'next-auth/react';
 import { BiLogOut,BiDonateHeart } from 'react-icons/bi';
 import { BsHouseFill, BsBellFill,BsFillCalendarFill,BsPeopleFill } from 'react-icons/bs';
-import { FaUser,FaShoppingBag,FaBlogger } from 'react-icons/fa';
-import { GiBroom } from 'react-icons/Gi'
+import { FaUser,FaShoppingBag,FaBlogger,FaBroom } from 'react-icons/fa';
 import {MdFoodBank} from 'react-icons/Md'
 
 import useCurrentUser from '@/hooks/useCurrentUser';
@@ -34,7 +33,7 @@ const Sidebar = () => {
       auth: true,
     },
     {
-      icon: GiBroom,
+      icon: FaBroom,
       label: 'Clean Up',
       href: 'https://kartik-wadhwa.github.io/cleanup/',
       auth: true,
